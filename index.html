@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Poppy's Tests</title>
+    <link rel="shortcut icon" href='{{ url_for('static', filename='fav2.ico') }}'>
+    <style>
+      html { height: 100%; width: 100%;}
+      body {
+      background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://picsum.photos/1920/1080?blur=6');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: #D8DBE2;
+      font-family: courier;
+      text-align:center;
+      }
+      #bottom {
+      position: absolute;
+      bottom: 1px;
+      width: 99.2%;
+      }
+      .center {
+       margin: 0;
+       position: absolute;
+       top: 50%;
+       left: 50%;
+       -ms-transform: translate(-50%, -50%);
+       transform: translate(-50%, -50%);
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="center">
+      <img src='https://raw.githubusercontent.com/ignpoppyseed/ignpoppyseed/main/img/logos/orchid.png' width=30% height=30%>
+      <h1 style="font-size: 50px;">test.meadow.network</h1>
+      <p style="font-size:40px;">poppy's testing site</p>
+      <p style="font-size:40px;">L + ratio</p>
+    </div>
+  </body>
+<div id="bottom"><p>© cloverbrand</p><p>currently running Flask 2.1.2 and Python 3.8.12</p></div>
+</html>
