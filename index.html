@@ -56,12 +56,17 @@
         color: #ffffff;
         padding: 15px 0;
       }
+      a:link { color:#D8DBE2; text-decoration: none; }
+      a:visited { color:#D8DBE2; text-decoration: none; }
+      a:hover { color:#D8DBE2; text-decoration: underline; }
+      a:active { color:#D8DBE2; text-decoration: underline; }
+
     </style>
   </head>
   <body>
     <div class="fill">
       <div id="bottom">
-        <p "position: absolute; bottom: 0; width:100%;>created by poppy</p>
+        <a position: absolute; bottom: 0; width:100%; color: #D8DBE2; href="https://github.com/ignpoppyseed/"  target="_blank" rel="noopener noreferrer">created by poppy</a>        
       </div>
     </div>
   </body>
@@ -79,4 +84,3 @@
     document.getElementsByClassName('fill')[0].style.backgroundImage = 'url(' + images[Math.floor(Math.random() * images.length)] + ')';
   
   </script> 
-</html>
